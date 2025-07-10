@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.24" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>MGKL's Note</title><meta name="description" content="曾晓生命脆弱，未料如此不堪">
+    <link rel="preload" href="/assets/style-v9YVb9qz.css" as="style"><link rel="stylesheet" href="/assets/style-v9YVb9qz.css">
+    <link rel="modulepreload" href="/assets/app-C49g8KVO.js"><link rel="modulepreload" href="/assets/404.html-CYyN8TUi.js">
+    <link rel="prefetch" href="/assets/index.html-C-Cq6X13.js" as="script"><link rel="prefetch" href="/assets/data_structure.html-CNoVrM1b.js" as="script"><link rel="prefetch" href="/assets/cpp_concurrency_programming.html-s8IRNeLc.js" as="script"><link rel="prefetch" href="/assets/cpp_design_pattern.html-CldK9PjE.js" as="script"><link rel="prefetch" href="/assets/cpp_interview.html-BP6GhPGy.js" as="script"><link rel="prefetch" href="/assets/cpp_lambda_expr.html-EF0YhpTL.js" as="script"><link rel="prefetch" href="/assets/TCP_IP.html-CpZK-T_C.js" as="script"><link rel="prefetch" href="/assets/hiredis_usage.html-DFeGXprG.js" as="script"><link rel="prefetch" href="/assets/gdb.html-T1dRt04S.js" as="script"><link rel="prefetch" href="/assets/git.html-DyqXO9lD.js" as="script"><link rel="prefetch" href="/assets/makefile.html-BWanWVnC.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-4e38413f><main class="page" data-v-4e38413f><div vp-content data-v-4e38413f><h1 data-v-4e38413f>404</h1><blockquote data-v-4e38413f>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-4e38413f>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-C49g8KVO.js" defer></script>
+  </body>
+</html>
