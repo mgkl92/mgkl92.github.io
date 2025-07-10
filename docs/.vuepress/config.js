@@ -20,16 +20,6 @@ export default defineUserConfig({
         icon: "material-symbols:home"
       }
     ],
-    sidebar: [
-      {
-        text: "Preface",
-        collapsible: true,
-        children: [
-          { text: "Sec 1" },
-          { text: "Sec 2" }
-        ]
-      }
-    ],
     repo: "mgkl92/mgkl92.github.io",
     docsRepo: "mgkl92/mgkl92.github.io",
     docsBranch: "main",
