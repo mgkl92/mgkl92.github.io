@@ -13,7 +13,10 @@
   "license": "ISC",
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
+    "@iconify-json/material-symbols": "^1.2.29",
+    "@iconify/vue": "^5.0.0",
     "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-icon": "2.0.0-rc.112",
     "@vuepress/theme-default": "2.0.0-rc.112",
     "sass-embedded": "^1.89.2",
     "vue": "^3.5.17",
