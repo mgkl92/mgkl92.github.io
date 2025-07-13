@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.24" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>MGKL's Note</title><meta name="description" content="曾晓生命脆弱，未料如此不堪">
+    <link rel="preload" href="/assets/style-v9YVb9qz.css" as="style"><link rel="stylesheet" href="/assets/style-v9YVb9qz.css">
+    <link rel="modulepreload" href="/assets/app-CkPgLnmy.js"><link rel="modulepreload" href="/assets/404.html-wD3O6Kj5.js">
+    <link rel="prefetch" href="/assets/index.html-P0dHuTJc.js" as="script"><link rel="prefetch" href="/assets/data_structure.html-Okyy5Yvo.js" as="script"><link rel="prefetch" href="/assets/cpp_concurrency_programming.html-DeMC_iHZ.js" as="script"><link rel="prefetch" href="/assets/cpp_design_pattern.html-BKRFw7fM.js" as="script"><link rel="prefetch" href="/assets/cpp_interview.html-BuXpS3uc.js" as="script"><link rel="prefetch" href="/assets/cpp_lambda_expr.html-C17BiuTa.js" as="script"><link rel="prefetch" href="/assets/read_write_lock.html-BN5NK0lS.js" as="script"><link rel="prefetch" href="/assets/TCP_IP.html-C91nxB5N.js" as="script"><link rel="prefetch" href="/assets/hiredis_usage.html-Dq3AZOo0.js" as="script"><link rel="prefetch" href="/assets/gdb.html-BXkGUCCT.js" as="script"><link rel="prefetch" href="/assets/git.html-6dZjwx_Q.js" as="script"><link rel="prefetch" href="/assets/makefile.html-DsSTmRth.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-4e38413f><main class="page" data-v-4e38413f><div vp-content data-v-4e38413f><h1 data-v-4e38413f>404</h1><blockquote data-v-4e38413f>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-4e38413f>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-CkPgLnmy.js" defer></script>
+  </body>
+</html>
